@@ -208,9 +208,15 @@ h3 i{
     flex-direction:column;
     }
 
-  *{
-    border-radius:0%;
+  .container .left_side{
+  border-top-left-radius:0%;
+  border-bottom-left-radius:0%;
   }
-
+ .container .first{
+   border-top-right-radius:0%;
+ }
+  .container .second{
+  border-bottom-right-radius:0%;
+  }
 }
   
